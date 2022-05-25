@@ -62,7 +62,7 @@ const Login = () => {
                 <p className='error-text'>{formErrors.userName}</p>
                 <div>
                     <input
-                        type="text"
+                        type="email"
                         className='form-control'
                         placeholder='Enter your Email'
                         name='email'
@@ -74,7 +74,7 @@ const Login = () => {
 
                 <div>
                     <input
-                        type="text"
+                        type="password"
                         className='form-control'
                         placeholder='Enter your password'
                         name='password'
